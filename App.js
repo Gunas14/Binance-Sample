@@ -14,7 +14,7 @@ export default class App extends Component {
 }
 
 const AppNavigator = new StackNavigator ({
-    // Login : { screen : Login },
+    Login : { screen : Login },
     Home : { screen : Home,
       navigationOptions: {
         title: "Home",
